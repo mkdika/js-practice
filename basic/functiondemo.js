@@ -3,18 +3,12 @@ function calAge(birthYear) {
   return age;
 }
 
-var ageJohn = calAge(1990);
-var ageMike = calAge(1983);
-var ageMary = calAge(1995);
-
-function printStatus(name,age) {
-  var retire = 65 - age;
-  console.log(name+', retire: '+retire);
+function printStatus(name,birthYear) {
+  var age = calAge(birthYear);
+  var retire = 65 - age;  
+  console.log(name+' is '+ age + ' years old and will retire in '+retire+' years later.');
 }
 
-console.log('John age: '+ageJohn);
-printStatus('John',ageJohn);
-console.log('Mike age: '+ageMike);
-printStatus('Mike',ageMike);
-console.log('Mary age: '+ageMary);
-printStatus('Mary',ageMary);
+printStatus('John',1990);
+printStatus('Mike',1983);
+printStatus('Mary',1995);
