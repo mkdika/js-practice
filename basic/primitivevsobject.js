@@ -41,9 +41,16 @@ function change(a,b) {
   b.city = 'San Fransisco';  
 }
 
-change(age,obj);
+change(age,obj); // age will pass by value, not reference
 
 console.log(age); // 27, age still same
 console.log(obj.city); // obj city change to 'San Fransisco'
 
+age = 45  // change a value
+
+console.log(age)
+
+var age = 66 // change a value
+
+console.log(age)
 

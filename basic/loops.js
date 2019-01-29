@@ -15,6 +15,7 @@ for (i in names) {
 
 console.log('Use of:');
 // for each with of to travers all array element
+// work since ES6
 for (name of names) {
   console.log(name);
 }

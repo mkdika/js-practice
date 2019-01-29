@@ -3,3 +3,4 @@ var age = 26;
 
 console.log('Name: '+name+', Age: '+age);
 console.log(age+age);
+console.log(name+age)

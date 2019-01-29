@@ -10,11 +10,11 @@ function calculateAge(year) {
 // function expression declarasion.
 // hoisting does not work here, it will cause error
 // on JS console.
-retirement(1990); // remark to prevent console error.
+// retirement(1990); // remark to prevent console error.
 
 // function expression
 var retirement = function (year) {
   console.log(65 - (2018 - year));
 }
 
-// retirement(1983); // this will not cause error
+retirement(1983); // this will not cause error

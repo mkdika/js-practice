@@ -30,5 +30,5 @@ jane['job'] = 'Software Engineer';
 jane.skillset = ['Java','MySQL','JS'];
 
 console.log(jane.lastName);
-console.log(jane['job']);
+console.log(jane.job);
 console.log(jane.skillset);

@@ -9,7 +9,6 @@ console.log(years);
 // get array element by index
 console.log(names[0]);
 
-
 // add element to the last
 names.push('Andy')
 
@@ -17,6 +16,16 @@ names.push('Andy')
 names.unshift('Zack');
 
 console.log(names);
+
+// remove last element of array
+names.pop()
+
+console.log(names)
+
+// remove first element of array
+names.shift()
+
+console.log(names)
 
 // sort the array
 names.sort();

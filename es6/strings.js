@@ -1,4 +1,5 @@
 // ES6 String Template Demo
+// also called String interpolation
 
 let firstName = 'John';
 let lastName = 'Smith';
